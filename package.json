@@ -1,5 +1,10 @@
 {
   "name": "time_to_answer",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CaioProg/Time_to_Answer.git",
+  "author": "Caio Lucas <caioprog18@gmail.com>",
+  "license": "MIT"
 }
