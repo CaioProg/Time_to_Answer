@@ -1,7 +1,12 @@
 {
   "name": "time_to_answer",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "4.6.0",
+    "font-awesome": "^4.6.3",
+    "jquery": "3.6.0",
+    "metismenu": "^3.0.7"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/CaioProg/Time_to_Answer.git",
