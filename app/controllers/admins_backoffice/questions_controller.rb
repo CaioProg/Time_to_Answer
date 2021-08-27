@@ -44,6 +44,6 @@ class AdminsBackoffice::QuestionsController < AdminsBackofficeController
     end
 
     def set_question
-        @question = Qustion.find(params[:id])
+        @question = Question.find(params[:id])
         end 
     end
