@@ -39,7 +39,7 @@ class AdminsBackoffice::QuestionsController < AdminsBackofficeController
 
     private
 
-    def params_questions
+    def params_question
         params.require(:question).permit(:description, :subject_id)
     end
 
