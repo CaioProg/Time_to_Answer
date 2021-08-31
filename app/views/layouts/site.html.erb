@@ -50,15 +50,19 @@
           <%= link_to new_user_registration_path, class:"nav-link" do %>Cadastrar-se
           <% end %>    
         </li>
-        <% else%>
+        <% else %>
         <li>
-          <li class="nav-item">
-          <%= link_to destroy_user_session_path, method: :delete, class:"nav-link" do %>Sair
+        <li class="nav-item">
+          <%= link_to users_backoffice_welcome_index_path, class:"nav-link" do %>Perfil
           <% end %>
+
+        <li class="nav-item">
+          <%= link_to destroy_user_session_path, method: :delete, class:"nav-link" do %>Sair
+        <% end %>
         </li>
       </ul>
       </li>
-         <% end %>
+          <% end %>
 
     </div>
   </div>
@@ -76,6 +80,16 @@
     <%= javascript_include_tag 'application' %>
     <%= javascript_include_tag 'site' %>
 
-      
+    <% if notice %>
+        <%= javascript_tag do %> 
+            $.bootstrapGrowl('<%= notice %>', {
+            type: 'success', // (null, 'info', 'danger', 'success')
+            align: 'right', // ('left', 'right', or 'center')
+            allow_dismiss: true, // If true then will display a cross to close the popup.
+            stackup_spacing: 10 // spacing between consecutively stacked growls.
+            });
+        <% end %>
+    <% end %>
+
   </body>
 </html>
