@@ -1,0 +1,18 @@
+/*
+*= require bootstrap/dist/css/bootstrap
+*= require metismenu/dist/metisMenu
+*= require sb-admin-2
+*= require font-awesome/css/font-awesome
+*/
+
+.container {    
+    width: 900px;
+    height: 100px;
+    padding: 5px;
+  
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  
+    margin: -170px 0 0 -170px;
+}
