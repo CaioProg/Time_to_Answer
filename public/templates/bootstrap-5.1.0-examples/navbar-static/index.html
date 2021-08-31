@@ -1,17 +1,19 @@
 <!doctype html>
-<html >
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>Top navbar example · Bootstrap v5.1</title>
 
-    <title>TimeToAnswer</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-static/">
 
-    <%= stylesheet_link_tag    'application' %>
-    <%= stylesheet_link_tag    'site' %>
+    
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -29,13 +31,15 @@
       }
     </style>
 
-  
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar-top.css" rel="stylesheet">
   </head>
   <body>
     
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fixed navbar</a>
+    <a class="navbar-brand" href="#">Top navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -61,13 +65,14 @@
 
 <main class="container">
   <div class="bg-light p-5 rounded">
-    <%= yield %>
-
+    <h1>Navbar example</h1>
+    <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+    <a class="btn btn-lg btn-primary" href="../components/navbar/" role="button">View navbar docs &raquo;</a>
   </div>
 </main>
 
-    <%= javascript_include_tag 'application' %>
-    <%= javascript_include_tag 'site' %>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
       
   </body>
