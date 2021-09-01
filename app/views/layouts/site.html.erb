@@ -40,11 +40,12 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <%= form_with(url: site_search_path, local: true, method: :get, class:"navbar-form navbar-left") do |form| %>
-  <div class="form-group">
-    <%= form.text_field :term, class:"form-control", placeholder:"Digite algo"%>
+  <div class="form-group ">
+    <%= form.text_field :term, class:"form-control", placeholder:"Digite algo..."%>
+        <% end %>
+
   </div>
-    <button type="submit" class="btn btn-outline-secondary btn-sm ">Pesquisar</button>
-    <% end %>
+    <button type="submit" class="btn btn-outline-secondary btn-sm  ">Pesquisar</button>
       
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto mb-2 mb-md-0">
