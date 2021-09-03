@@ -29,5 +29,5 @@ class UsersBackoffice::ProfileController < UsersBackofficeController
       params[:user].extract!(:password, :password_confirmation)
     end
   end
-
 end
+
