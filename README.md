@@ -1,24 +1,6 @@
-# README
+# Time to Answer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Projeto feio no curso "Ruby on Rails 5.x - Do início ao fim! ", é um site de perguntas e respostas, criamos a parte administrativa para colocar as perguntas e cadastrar novos administradores.
+<p align="center">
+  <img width="700" src="app/assets/to_readme/time.gif">
+</p>
